@@ -32,6 +32,13 @@
 <script lang="ts">
 import Vue from 'vue';
 
+enum Direction {
+Up,
+Down ,
+}
+
+const foo: Direction = Direction.Up;
+
 export default Vue.extend({
   name: 'HelloWorld',
   props: {
